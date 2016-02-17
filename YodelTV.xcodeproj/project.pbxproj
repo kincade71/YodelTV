@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		514931301C6BAC8700807E99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5149312F1C6BAC8700807E99 /* AppDelegate.m */; };
+		51911A751C720A0E001ADFCC /* images in Resources */ = {isa = PBXBuildFile; fileRef = 51911A741C720A0E001ADFCC /* images */; };
+		51C9CFA91C6BA87100F6D59D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C9CFA81C6BA87100F6D59D /* main.m */; };
+		51C9CFB41C6BA87100F6D59D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C9CFB31C6BA87100F6D59D /* Assets.xcassets */; };
+		51C9CFBF1C6BA87100F6D59D /* YodelTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C9CFBE1C6BA87100F6D59D /* YodelTVTests.m */; };
+		51C9CFCA1C6BA87100F6D59D /* YodelTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C9CFC91C6BA87100F6D59D /* YodelTVUITests.m */; };
+		51C9CFF21C6BAA3D00F6D59D /* BrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C9CFD81C6BAA3D00F6D59D /* BrowseViewController.m */; };
+		51C9CFF31C6BAA3D00F6D59D /* FlickrDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C9CFDA1C6BAA3D00F6D59D /* FlickrDataStore.m */; };
+		51C9CFF41C6BAA3D00F6D59D /* FlickrImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C9CFDC1C6BAA3D00F6D59D /* FlickrImageViewCell.m */; };
+		51C9CFF51C6BAA3D00F6D59D /* FlickrImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C9CFDD1C6BAA3D00F6D59D /* FlickrImageViewCell.xib */; };
+		51C9CFF61C6BAA3D00F6D59D /* InterestingPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C9CFE01C6BAA3D00F6D59D /* InterestingPhotos.m */; };
+		51C9CFF71C6BAA3D00F6D59D /* libFlurryTV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C9CFE11C6BAA3D00F6D59D /* libFlurryTV.a */; };
+		51C9CFF81C6BAA3D00F6D59D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C9CFE21C6BAA3D00F6D59D /* Main.storyboard */; };
+		51C9CFF91C6BAA3D00F6D59D /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C9CFE41C6BAA3D00F6D59D /* Photo.m */; };
+		51C9CFFA1C6BAA3D00F6D59D /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C9CFE61C6BAA3D00F6D59D /* PhotoController.m */; };
+		51C9CFFB1C6BAA3D00F6D59D /* SelectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C9CFE81C6BAA3D00F6D59D /* SelectionViewCell.m */; };
+		51C9CFFC1C6BAA3D00F6D59D /* SelectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C9CFE91C6BAA3D00F6D59D /* SelectionViewCell.xib */; };
+		51C9CFFD1C6BAA3D00F6D59D /* SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C9CFEB1C6BAA3D00F6D59D /* SelectionViewController.m */; };
+		51C9CFFE1C6BAA3D00F6D59D /* SelectionViewDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C9CFED1C6BAA3D00F6D59D /* SelectionViewDataStore.m */; };
+		51C9CFFF1C6BAA3D00F6D59D /* SelectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C9CFEF1C6BAA3D00F6D59D /* SelectionViewModel.m */; };
+		51C9D0021C6BAA8E00F6D59D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C9D0011C6BAA8E00F6D59D /* SystemConfiguration.framework */; };
+		CD61B2F97BD38DA2F840BC7B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D89EA1C2C92E1F7493EB562A /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51C9CFBB1C6BA87100F6D59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51C9CF9C1C6BA87100F6D59D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51C9CFA31C6BA87100F6D59D;
+			remoteInfo = YodelTV;
+		};
+		51C9CFC61C6BA87100F6D59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51C9CF9C1C6BA87100F6D59D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51C9CFA31C6BA87100F6D59D;
+			remoteInfo = YodelTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A9DA523918EE22412F24BA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		07B94DEF921F363CD71CBA4B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5149312E1C6BAC8700807E99 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5149312F1C6BAC8700807E99 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51911A741C720A0E001ADFCC /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		51C9CFA41C6BA87100F6D59D /* YodelTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YodelTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C9CFA81C6BA87100F6D59D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51C9CFB31C6BA87100F6D59D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51C9CFB51C6BA87100F6D59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C9CFBA1C6BA87100F6D59D /* YodelTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YodelTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C9CFBE1C6BA87100F6D59D /* YodelTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YodelTVTests.m; sourceTree = "<group>"; };
+		51C9CFC01C6BA87100F6D59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C9CFC51C6BA87100F6D59D /* YodelTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YodelTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C9CFC91C6BA87100F6D59D /* YodelTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YodelTVUITests.m; sourceTree = "<group>"; };
+		51C9CFCB1C6BA87100F6D59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C9CFD71C6BAA3D00F6D59D /* BrowseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseViewController.h; sourceTree = "<group>"; };
+		51C9CFD81C6BAA3D00F6D59D /* BrowseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseViewController.m; sourceTree = "<group>"; };
+		51C9CFD91C6BAA3D00F6D59D /* FlickrDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrDataStore.h; sourceTree = "<group>"; };
+		51C9CFDA1C6BAA3D00F6D59D /* FlickrDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrDataStore.m; sourceTree = "<group>"; };
+		51C9CFDB1C6BAA3D00F6D59D /* FlickrImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrImageViewCell.h; sourceTree = "<group>"; };
+		51C9CFDC1C6BAA3D00F6D59D /* FlickrImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrImageViewCell.m; sourceTree = "<group>"; };
+		51C9CFDD1C6BAA3D00F6D59D /* FlickrImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlickrImageViewCell.xib; sourceTree = "<group>"; };
+		51C9CFDE1C6BAA3D00F6D59D /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		51C9CFDF1C6BAA3D00F6D59D /* InterestingPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestingPhotos.h; sourceTree = "<group>"; };
+		51C9CFE01C6BAA3D00F6D59D /* InterestingPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestingPhotos.m; sourceTree = "<group>"; };
+		51C9CFE11C6BAA3D00F6D59D /* libFlurryTV.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryTV.a; sourceTree = "<group>"; };
+		51C9CFE21C6BAA3D00F6D59D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		51C9CFE31C6BAA3D00F6D59D /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		51C9CFE41C6BAA3D00F6D59D /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		51C9CFE51C6BAA3D00F6D59D /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
+		51C9CFE61C6BAA3D00F6D59D /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
+		51C9CFE71C6BAA3D00F6D59D /* SelectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionViewCell.h; sourceTree = "<group>"; };
+		51C9CFE81C6BAA3D00F6D59D /* SelectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewCell.m; sourceTree = "<group>"; };
+		51C9CFE91C6BAA3D00F6D59D /* SelectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionViewCell.xib; sourceTree = "<group>"; };
+		51C9CFEA1C6BAA3D00F6D59D /* SelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionViewController.h; sourceTree = "<group>"; };
+		51C9CFEB1C6BAA3D00F6D59D /* SelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewController.m; sourceTree = "<group>"; };
+		51C9CFEC1C6BAA3D00F6D59D /* SelectionViewDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionViewDataStore.h; sourceTree = "<group>"; };
+		51C9CFED1C6BAA3D00F6D59D /* SelectionViewDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewDataStore.m; sourceTree = "<group>"; };
+		51C9CFEE1C6BAA3D00F6D59D /* SelectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionViewModel.h; sourceTree = "<group>"; };
+		51C9CFEF1C6BAA3D00F6D59D /* SelectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewModel.m; sourceTree = "<group>"; };
+		51C9D0011C6BAA8E00F6D59D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D89EA1C2C92E1F7493EB562A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51C9CFA11C6BA87100F6D59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C9D0021C6BAA8E00F6D59D /* SystemConfiguration.framework in Frameworks */,
+				CD61B2F97BD38DA2F840BC7B /* libPods.a in Frameworks */,
+				51C9CFF71C6BAA3D00F6D59D /* libFlurryTV.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C9CFB71C6BA87100F6D59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C9CFC21C6BA87100F6D59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51911A761C720A84001ADFCC /* BrowserView */ = {
+			isa = PBXGroup;
+			children = (
+				51C9CFD81C6BAA3D00F6D59D /* BrowseViewController.m */,
+				51C9CFD71C6BAA3D00F6D59D /* BrowseViewController.h */,
+				51C9CFDB1C6BAA3D00F6D59D /* FlickrImageViewCell.h */,
+				51C9CFDC1C6BAA3D00F6D59D /* FlickrImageViewCell.m */,
+				51C9CFDD1C6BAA3D00F6D59D /* FlickrImageViewCell.xib */,
+			);
+			name = BrowserView;
+			sourceTree = "<group>";
+		};
+		51911A781C720ADC001ADFCC /* PhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				51C9CFE51C6BAA3D00F6D59D /* PhotoController.h */,
+				51C9CFE61C6BAA3D00F6D59D /* PhotoController.m */,
+			);
+			name = PhotoView;
+			sourceTree = "<group>";
+		};
+		51911A791C720B11001ADFCC /* SelectionView */ = {
+			isa = PBXGroup;
+			children = (
+				51911A7A1C720B5C001ADFCC /* model */,
+				51C9CFEA1C6BAA3D00F6D59D /* SelectionViewController.h */,
+				51C9CFEB1C6BAA3D00F6D59D /* SelectionViewController.m */,
+				51C9CFE71C6BAA3D00F6D59D /* SelectionViewCell.h */,
+				51C9CFE81C6BAA3D00F6D59D /* SelectionViewCell.m */,
+				51C9CFE91C6BAA3D00F6D59D /* SelectionViewCell.xib */,
+			);
+			name = SelectionView;
+			sourceTree = "<group>";
+		};
+		51911A7A1C720B5C001ADFCC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				51C9CFEC1C6BAA3D00F6D59D /* SelectionViewDataStore.h */,
+				51C9CFED1C6BAA3D00F6D59D /* SelectionViewDataStore.m */,
+				51C9CFEE1C6BAA3D00F6D59D /* SelectionViewModel.h */,
+				51C9CFEF1C6BAA3D00F6D59D /* SelectionViewModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		51911A7C1C720C2C001ADFCC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				51C9CFD91C6BAA3D00F6D59D /* FlickrDataStore.h */,
+				51C9CFDA1C6BAA3D00F6D59D /* FlickrDataStore.m */,
+				51C9CFDF1C6BAA3D00F6D59D /* InterestingPhotos.h */,
+				51C9CFE01C6BAA3D00F6D59D /* InterestingPhotos.m */,
+				51C9CFE31C6BAA3D00F6D59D /* Photo.h */,
+				51C9CFE41C6BAA3D00F6D59D /* Photo.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		51911A7D1C721675001ADFCC /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				51C9CFDE1C6BAA3D00F6D59D /* Flurry.h */,
+				51C9CFE11C6BAA3D00F6D59D /* libFlurryTV.a */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		51C9CF9B1C6BA87100F6D59D = {
+			isa = PBXGroup;
+			children = (
+				51C9CFA61C6BA87100F6D59D /* YodelTV */,
+				51C9CFBD1C6BA87100F6D59D /* YodelTVTests */,
+				51C9CFC81C6BA87100F6D59D /* YodelTVUITests */,
+				51C9CFA51C6BA87100F6D59D /* Products */,
+				ED8437429AE082B3E982875E /* Pods */,
+				E16495FFB88B6A7C8E763FD4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51C9CFA51C6BA87100F6D59D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51C9CFA41C6BA87100F6D59D /* YodelTV.app */,
+				51C9CFBA1C6BA87100F6D59D /* YodelTVTests.xctest */,
+				51C9CFC51C6BA87100F6D59D /* YodelTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51C9CFA61C6BA87100F6D59D /* YodelTV */ = {
+			isa = PBXGroup;
+			children = (
+				5149312E1C6BAC8700807E99 /* AppDelegate.h */,
+				5149312F1C6BAC8700807E99 /* AppDelegate.m */,
+				51C9CFE21C6BAA3D00F6D59D /* Main.storyboard */,
+				51C9CFB51C6BA87100F6D59D /* Info.plist */,
+				51911A7C1C720C2C001ADFCC /* model */,
+				51911A791C720B11001ADFCC /* SelectionView */,
+				51911A781C720ADC001ADFCC /* PhotoView */,
+				51911A761C720A84001ADFCC /* BrowserView */,
+				51911A741C720A0E001ADFCC /* images */,
+				51C9CFB31C6BA87100F6D59D /* Assets.xcassets */,
+				51911A7D1C721675001ADFCC /* libs */,
+				51C9CFA71C6BA87100F6D59D /* Supporting Files */,
+			);
+			path = YodelTV;
+			sourceTree = "<group>";
+		};
+		51C9CFA71C6BA87100F6D59D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51C9CFA81C6BA87100F6D59D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51C9CFBD1C6BA87100F6D59D /* YodelTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				51C9CFBE1C6BA87100F6D59D /* YodelTVTests.m */,
+				51C9CFC01C6BA87100F6D59D /* Info.plist */,
+			);
+			path = YodelTVTests;
+			sourceTree = "<group>";
+		};
+		51C9CFC81C6BA87100F6D59D /* YodelTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51C9CFC91C6BA87100F6D59D /* YodelTVUITests.m */,
+				51C9CFCB1C6BA87100F6D59D /* Info.plist */,
+			);
+			path = YodelTVUITests;
+			sourceTree = "<group>";
+		};
+		E16495FFB88B6A7C8E763FD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51C9D0011C6BAA8E00F6D59D /* SystemConfiguration.framework */,
+				D89EA1C2C92E1F7493EB562A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED8437429AE082B3E982875E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02A9DA523918EE22412F24BA /* Pods.debug.xcconfig */,
+				07B94DEF921F363CD71CBA4B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51C9CFA31C6BA87100F6D59D /* YodelTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C9CFCE1C6BA87100F6D59D /* Build configuration list for PBXNativeTarget "YodelTV" */;
+			buildPhases = (
+				2C366AAE35D5A529553FF0AF /* Check Pods Manifest.lock */,
+				51C9CFA01C6BA87100F6D59D /* Sources */,
+				51C9CFA11C6BA87100F6D59D /* Frameworks */,
+				51C9CFA21C6BA87100F6D59D /* Resources */,
+				47D0E1261ED035B8D9845D06 /* Embed Pods Frameworks */,
+				58333D23CAFBA37F744DEAE3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YodelTV;
+			productName = YodelTV;
+			productReference = 51C9CFA41C6BA87100F6D59D /* YodelTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51C9CFB91C6BA87100F6D59D /* YodelTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C9CFD11C6BA87100F6D59D /* Build configuration list for PBXNativeTarget "YodelTVTests" */;
+			buildPhases = (
+				51C9CFB61C6BA87100F6D59D /* Sources */,
+				51C9CFB71C6BA87100F6D59D /* Frameworks */,
+				51C9CFB81C6BA87100F6D59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51C9CFBC1C6BA87100F6D59D /* PBXTargetDependency */,
+			);
+			name = YodelTVTests;
+			productName = YodelTVTests;
+			productReference = 51C9CFBA1C6BA87100F6D59D /* YodelTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51C9CFC41C6BA87100F6D59D /* YodelTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C9CFD41C6BA87100F6D59D /* Build configuration list for PBXNativeTarget "YodelTVUITests" */;
+			buildPhases = (
+				51C9CFC11C6BA87100F6D59D /* Sources */,
+				51C9CFC21C6BA87100F6D59D /* Frameworks */,
+				51C9CFC31C6BA87100F6D59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51C9CFC71C6BA87100F6D59D /* PBXTargetDependency */,
+			);
+			name = YodelTVUITests;
+			productName = YodelTVUITests;
+			productReference = 51C9CFC51C6BA87100F6D59D /* YodelTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51C9CF9C1C6BA87100F6D59D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yahoo, inc.";
+				TargetAttributes = {
+					51C9CFA31C6BA87100F6D59D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					51C9CFB91C6BA87100F6D59D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 51C9CFA31C6BA87100F6D59D;
+					};
+					51C9CFC41C6BA87100F6D59D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 51C9CFA31C6BA87100F6D59D;
+					};
+				};
+			};
+			buildConfigurationList = 51C9CF9F1C6BA87100F6D59D /* Build configuration list for PBXProject "YodelTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51C9CF9B1C6BA87100F6D59D;
+			productRefGroup = 51C9CFA51C6BA87100F6D59D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51C9CFA31C6BA87100F6D59D /* YodelTV */,
+				51C9CFB91C6BA87100F6D59D /* YodelTVTests */,
+				51C9CFC41C6BA87100F6D59D /* YodelTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51C9CFA21C6BA87100F6D59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51911A751C720A0E001ADFCC /* images in Resources */,
+				51C9CFF81C6BAA3D00F6D59D /* Main.storyboard in Resources */,
+				51C9CFB41C6BA87100F6D59D /* Assets.xcassets in Resources */,
+				51C9CFF51C6BAA3D00F6D59D /* FlickrImageViewCell.xib in Resources */,
+				51C9CFFC1C6BAA3D00F6D59D /* SelectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C9CFB81C6BA87100F6D59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C9CFC31C6BA87100F6D59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C366AAE35D5A529553FF0AF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47D0E1261ED035B8D9845D06 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58333D23CAFBA37F744DEAE3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51C9CFA01C6BA87100F6D59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C9CFF91C6BAA3D00F6D59D /* Photo.m in Sources */,
+				51C9CFFF1C6BAA3D00F6D59D /* SelectionViewModel.m in Sources */,
+				51C9CFFA1C6BAA3D00F6D59D /* PhotoController.m in Sources */,
+				51C9CFF21C6BAA3D00F6D59D /* BrowseViewController.m in Sources */,
+				51C9CFF41C6BAA3D00F6D59D /* FlickrImageViewCell.m in Sources */,
+				51C9CFF31C6BAA3D00F6D59D /* FlickrDataStore.m in Sources */,
+				514931301C6BAC8700807E99 /* AppDelegate.m in Sources */,
+				51C9CFFD1C6BAA3D00F6D59D /* SelectionViewController.m in Sources */,
+				51C9CFF61C6BAA3D00F6D59D /* InterestingPhotos.m in Sources */,
+				51C9CFA91C6BA87100F6D59D /* main.m in Sources */,
+				51C9CFFB1C6BAA3D00F6D59D /* SelectionViewCell.m in Sources */,
+				51C9CFFE1C6BAA3D00F6D59D /* SelectionViewDataStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C9CFB61C6BA87100F6D59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C9CFBF1C6BA87100F6D59D /* YodelTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C9CFC11C6BA87100F6D59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C9CFCA1C6BA87100F6D59D /* YodelTVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51C9CFBC1C6BA87100F6D59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51C9CFA31C6BA87100F6D59D /* YodelTV */;
+			targetProxy = 51C9CFBB1C6BA87100F6D59D /* PBXContainerItemProxy */;
+		};
+		51C9CFC71C6BA87100F6D59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51C9CFA31C6BA87100F6D59D /* YodelTV */;
+			targetProxy = 51C9CFC61C6BA87100F6D59D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		51C9CFCC1C6BA87100F6D59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		51C9CFCD1C6BA87100F6D59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51C9CFCF1C6BA87100F6D59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A9DA523918EE22412F24BA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YodelTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YodelTV",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.YodelTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		51C9CFD01C6BA87100F6D59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B94DEF921F363CD71CBA4B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YodelTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YodelTV",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.YodelTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		51C9CFD21C6BA87100F6D59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YodelTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.YodelTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YodelTV.app/YodelTV";
+			};
+			name = Debug;
+		};
+		51C9CFD31C6BA87100F6D59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YodelTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.YodelTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YodelTV.app/YodelTV";
+			};
+			name = Release;
+		};
+		51C9CFD51C6BA87100F6D59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YodelTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.YodelTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YodelTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		51C9CFD61C6BA87100F6D59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YodelTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.YodelTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YodelTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51C9CF9F1C6BA87100F6D59D /* Build configuration list for PBXProject "YodelTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C9CFCC1C6BA87100F6D59D /* Debug */,
+				51C9CFCD1C6BA87100F6D59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51C9CFCE1C6BA87100F6D59D /* Build configuration list for PBXNativeTarget "YodelTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C9CFCF1C6BA87100F6D59D /* Debug */,
+				51C9CFD01C6BA87100F6D59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51C9CFD11C6BA87100F6D59D /* Build configuration list for PBXNativeTarget "YodelTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C9CFD21C6BA87100F6D59D /* Debug */,
+				51C9CFD31C6BA87100F6D59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51C9CFD41C6BA87100F6D59D /* Build configuration list for PBXNativeTarget "YodelTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C9CFD51C6BA87100F6D59D /* Debug */,
+				51C9CFD61C6BA87100F6D59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51C9CF9C1C6BA87100F6D59D /* Project object */;
+}
